@@ -1,0 +1,253 @@
+:root{
+    --blue:#009EFF;
+    --black:#006DAF;
+    --white:#fff;
+    --light-color:#666;
+    --light-bg:#eee;
+    --border:.2rem solid rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+ }
+ body{
+    background-color:rgb(226, 231, 216);
+
+ }
+h1{
+    text-align: center;
+   
+    font-style: italic;
+    font-size: 15px;
+
+
+}
+a{
+    text-decoration: none;
+    color: var(--blue);
+    text-transform: uppercase;
+
+}
+a :hover{
+    color:  darkgray;
+    font-size: larger;
+}
+a li{
+    justify-content: space-between;
+    
+
+    
+}
+nav{
+    display: flex;
+    height: 20%;
+    background-color: #f1efef;
+}
+li{
+   list-style: none;
+   justify-items: center;
+   text-align: center;
+   justify-content: space-between;
+   margin-left: 20px;
+   margin-right: 30px;
+   margin-top: 30px;
+ 
+	
+
+}
+nav img{
+    height: 55px;
+    width: 55px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(15, 9, 9);
+   
+}
+.block2{
+    
+    border-color: rgb(243, 236, 236); 
+    background-color: rgb(236, 241, 241);
+    border-radius: 5px;
+}
+.b1{
+    border:2px solid var(--blue);
+    width: 50%;
+    height: 90%;
+    background-color:var(--blue);
+    border-radius: 6px;
+    
+}
+.flexbox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+.b1 p{
+    justify-items: center;
+   text-align: center;
+   color: white;
+   font-weight: 900;
+
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+.experience{
+    border-radius: 7px;
+    background-color: rgb(225, 233, 233);
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+}
+.lists{
+    color: rgb(26, 9, 27);
+    margin-left: 9%;
+}
+
+.hobbies{
+    border-radius: 5px;
+    background-color:rgb(225, 233, 233);
+}
+@media (max-width:700px){
+    .flexbox{
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+   
+    
+}
+li{
+    margin-left: 19px;
+    margin-right: 5px;
+    margin-top: 20px;
+} 
+nav img{
+    margin-right: 20px;
+}
+.contact-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    border-top: 4px solid #0044cc; 
+    margin-left: 35%;
+
+}
+}
+
+.contact-section {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #0044cc; /* Blue heading */
+}
+
+.contact-section p {
+    color: #555;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #0044cc; /* Blue border on top */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #0044cc; /* Blue label color */
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #999;
+}
+
+.contact-form button {
+    background-color: #0044cc; /* Blue button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #003399;
+}
+.contact-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    border-top: 4px solid #0044cc; 
+    margin-left: 25%;
+
+}
+
+.contact-card h3 {
+    color: #0044cc; 
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 10px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #0044cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-icon {
+    font-size: 24px;
+    margin-right: 8px;
+    color: #0044cc;
+    vertical-align: middle;
+}
+ 
+ 
+footer{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
